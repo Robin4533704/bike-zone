@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>biker zone</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@200..800&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto+Flex:opsz,wght@8..144,100..1000&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.23/dist/full.min.css" rel="stylesheet" type="text/css" />
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+    
+    .font-poppins{
+        font-family: "Poppins", serif;
+    }
+   </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+            'biker-primary': '#a855f7',
+            'biker-bg': 'rgba(231, 111, 81, 0.1)',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body class="font-poppins">
+   <header class="md:container mx-auto lg:container mx-auto container mx-auto">
+<nav>
+    <div class="navbar bg-base-100">
+        <div class="flex-1">
+          <div class="dropdown">
+            <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                class="h-5 w-5"
+                fill="none"
+                viewBox="0 0 24 24"
+                stroke="currentColor">
+                <path
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                  stroke-width="2"
+                  d="M4 6h16M4 12h8m-8 6h16" />
+              </svg>
+            </div>
+            <ul
+              tabindex="0"
+              class="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow">
+              <li><a>Home</a></li>
+              <li>
+                <a>Shop</a>
+                <ul class="p-2">
+                  <li><a>News</a></li>
+                  <li><a>Contract</a></li>
+                </ul>
+              </li>
+
+            </ul>
+          </div>
+          <a class="font-bold text-3xl">Biker zone</a>
+        </div>
+        <div class="navbar-center hidden lg:flex">
+          <ul class="menu menu-horizontal px-1">
+            <li><a>Home</a></li>
+            <li><a>Shop</a></li>
+            <li><a>News</a></li>
+            <li><a>Contract</a></li>
+          </ul>
+        </div>
+        <div class="">
+          <a class="btn text-white bg-biker-primary">Loging</a>
+        </div>
+      </div>
+</nav>
+<!-- salider carousel -->
+<div class="orange colorcarousel w-full bg-biker-bg lg:h-[550px] rounded">
+   <div id="slide2" class="orange colorcarousel-item relative w-full">
+     <div class="flex  flex-col lg:flex-row lg:p-24 p-12">
+        <div class="space-y-7 flex-1 ">
+   <h1 class="text-6xl font-bold p-3">Ride-on R15 V4<br>with Smail</h1>
+   <p class="p-3 lg:max-w-116">Bick zone is the best dolor sit amet consectetur, adipisicing elit. Voluptate rem quasi hic inventore temporibus corporis.</p>
+   <button class="btn btn-primary">purchase</button>
+        </div>
+        <div class="flex-1 items-center">
+            <img  class="mt-8 -ml-8"
+            src="images/slider/bike3.png"/>  
+        </div>
+     </div>
+     
+    </div>
+  </div>
+</header> 
+   <main class="md:container mx-auto text-center p-5">
+    <section>
+        <div class="p-5 lg:p-5">
+            <h1 class="text-4xl font-bold" >Fetured Bikes This year</h1>
+            <h5 class="text-base text-red-900">Best Bike Collection</h5>
+            <p class="text-gray-300">Show our Bick</p>
+        </div>
+            <div class="orange colorcarousel orange colorcarousel-end rounded-box flex flex-col lg:flex-row gap-24 justify-center lg:p-24">
+                <div class="orange colorcarousel-item">
+                  <img src="images/others/extrabike.png" />
+                </div>
+                <div class="orange colorcarousel-item">
+                  <img
+                    src="images/slider/bike4.png" />
+                </div>
+                <div class="orange colorcarousel-item">
+                  <img
+                    src="images/slider/bike2.png"
+                    alt="Drink" />
+                </div>
+              </div>
+    
+    </section>
+    <section>
+        <div class="text-6xl p-12 lg:p-30 font-bold">
+            <h1>Latest News</h1>
+        </div>
+       <div class="grid justify-center grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 drop-shadow-xl">
+   
+          <div class="card card-compact bg-base-100 w-96 shadow-xl bg-sky-0 hover:bg-sky-50 rounded">
+            <figure>
+              <img
+                src="images/others/latest1.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">DUCATE XDIAVEL S-73</h2>
+              <p class="mr-7">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions">
+                <button class="btn btn-primary hover:px-6 hover:bg-red-500 border-none">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 w-96 shadow-xl bg-sky-0 hover:bg-sky-50 rounded">
+            <figure>
+              <img
+                src="images/others/latest2.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">DUCATE XDIAVEL S-73</h2>
+              <p class="mr-7">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions">
+                <button class="btn btn-primary hover:px-6 hover:bg-red-500 border-none">Buy Now</button>
+              </div>
+            </div>
+          </div>
+          <div class="card card-compact bg-base-100 w-96 shadow-xl bg-sky-0 hover:bg-sky-50 rounded">
+            <figure>
+              <img
+                src="images/others/latest3.png" />
+            </figure>
+            <div class="card-body">
+              <h2 class="card-title">DUCATE XDIAVEL S-73</h2>
+              <p class="mr-7">If a dog chews shoes whose shoes does he choose?</p>
+              <div class="card-actions transform-3d">
+                <button class="btn btn-primary hover:px-6 hover:bg-red-500 border-none">Buy Now</button>
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <section>
+        <div class="pt-24">
+            <h1 class="text-6xl font-bold">Happy <span class="text-orange-600">Clients Says</span></h1>
+        </div>
+       <div class="grid grid-cols-1 lg:grid-cols-3 lg:mt-24  rounded">
+        <div class="card bg-base-100 w-96 shadow-xl  ">
+            <figure class="px-10 pt-10">
+              <img
+                src="images/others/user-2.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+             <p>consectetur adipisicing elit. Nam veritatis rerum quod, mollitia similique voluptatem dignissimos cupiditate asperiores debitis? Quisquam!</p>
+             <!-- ranking -->
+             <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+             <h2 class="card-title">Raginal Milles</h2>
+              <div class="card-actions">
+               <h4 class="text-3xl text-black">Banker</h4>
+              </div>
+            </div>
+          </div>
+        <div class="card bg-base-100 w-96 shadow-xl  ">
+            <figure class="px-10 pt-10">
+              <img
+                src="images/others/user-3.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+             <p>consectetur adipisicing elit. Nam veritatis rerum quod, mollitia similique voluptatem dignissimos cupiditate asperiores debitis? Quisquam!</p>
+             <!-- ranking -->
+             <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+             <h2 class="card-title">Raginal Milles</h2>
+              <div class="card-actions">
+               <h4 class="text-3xl text-black">Banker</h4>
+              </div>
+            </div>
+          </div>
+        <div class="card bg-base-100 w-96 shadow-xl  ">
+            <figure class="px-10 pt-10">
+              <img
+                src="images/others/user-1.png"
+                alt="Shoes"
+                class="rounded-xl" />
+            </figure>
+            <div class="card-body items-center text-center">
+             <p>consectetur adipisicing elit. Nam veritatis rerum quod, mollitia similique voluptatem dignissimos cupiditate asperiores debitis? Quisquam!</p>
+             <!-- ranking -->
+             <div class="rating">
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input
+                  type="radio"
+                  name="rating-2"
+                  class="mask mask-star-2 bg-orange-400"
+                  checked="checked" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+                <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
+              </div>
+             <h2 class="card-title">Raginal Milles</h2>
+              <div class="card-actions">
+               <h4 class="text-3xl text-black">Banker</h4>
+              </div>
+            </div>
+          </div>
+       </div>
+    </section>
+   </main>
+   <footer class="md:container mx-auto"></footer>
+</body>
+</html>
