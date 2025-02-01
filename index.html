@@ -97,13 +97,14 @@
   </div>
 </header> 
    <main class="md:container mx-auto text-center p-5">
+  
     <section>
-        <div class="p-5 lg:p-5">
+        <div class="pt-10 lg:pt-24">
             <h1 class="text-4xl font-bold" >Fetured Bikes This year</h1>
             <h5 class="text-base text-red-900">Best Bike Collection</h5>
             <p class="text-gray-300">Show our Bick</p>
         </div>
-            <div class="orange colorcarousel orange colorcarousel-end rounded-box flex flex-col lg:flex-row gap-24 justify-center lg:p-24">
+            <div class="orange colorcarousel orange colorcarousel-end rounded-box grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-24 justify-center lg:p-24">
                 <div class="orange colorcarousel-item">
                   <img src="images/others/extrabike.png" />
                 </div>
@@ -167,10 +168,10 @@
         </div>
     </section>
     <section>
-        <div class="pt-24">
+        <div class="p-24">
             <h1 class="text-6xl font-bold">Happy <span class="text-orange-600">Clients Says</span></h1>
         </div>
-       <div class="grid grid-cols-1 lg:grid-cols-3 lg:mt-24  rounded">
+       <div class="grid  grid-cols-1 md:grid-cols-2 lg:grid-cols-3 md:gap-4 drop-shadow-xl">
         <div class="card bg-base-100 w-96 shadow-xl  ">
             <figure class="px-10 pt-10">
               <img
@@ -192,7 +193,7 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
-             <h2 class="card-title">Raginal Milles</h2>
+             <h2 class="card-title text-blue-600">Raginal Milles</h2>
               <div class="card-actions">
                <h4 class="text-3xl text-black">Banker</h4>
               </div>
@@ -219,7 +220,7 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
-             <h2 class="card-title">Raginal Milles</h2>
+             <h2 class="card-title text-blue-600 ">Raginal Milles</h2>
               <div class="card-actions">
                <h4 class="text-3xl text-black">Banker</h4>
               </div>
@@ -246,7 +247,7 @@
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
                 <input type="radio" name="rating-2" class="mask mask-star-2 bg-orange-400" />
               </div>
-             <h2 class="card-title">Raginal Milles</h2>
+             <h2 class="card-title text-blue-600">Raginal Milles</h2>
               <div class="card-actions">
                <h4 class="text-3xl text-black">Banker</h4>
               </div>
@@ -254,7 +255,76 @@
           </div>
        </div>
     </section>
+    <section class="lg:pt-24 md:p-12 p-8">
+      <div class="lg:mt-24 md:mt-12 mt-8">
+        <h1 class="lg:text-6xl text-2xl md:text-2xl font-bold">Frequently Asked<span class="text-orange-600 font-bold">Questions</span></h1>
+      </div>
+      <div class="hero  min-h-screen flex flex-col gap-12 lg:flex-row lg:-mt-44">
+        <div class="hero-content">
+          <img
+            src="images/others/faq.png"
+            class="max-w-sm rounded-lg shadow-2xl" />
+           </div> 
+           <div>
+            <div class="collapse collapse-arrow">
+              <input type="radio" name="my-accordion-2" checked="checked" />
+              <div class="collapse-title border border-blue-100 lg:space-y-7">
+              <h2 class="lg:text-2xl font-medium  font-bold">What are the most important things I should<br>
+                know about riding a bike?</h2>
+                <p>Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will help you be a more focused and legally compliant bike rider.</p>
+              </div>
+            </div>
+            <div class="collapse collapse-arrow  border border-blue-100 space-y-7">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">How can I tell if my helmet is old and I need a 
+                new one</div>
+             
+            </div>
+            <div class="collapse collapse-arrow  border border-blue-100 space-y-7">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+            </div>    
+            <div class="collapse collapse-arrow  border border-blue-100 space-y-7">
+              <input type="radio" name="my-accordion-2" />
+              <div class="collapse-title text-xl font-medium">My bike has been in storage is it safe to ride?</div>
+            </div> 
+           </div>
+      </div>
+    </section>
    </main>
-   <footer class="md:container mx-auto"></footer>
+   <footer class="lg:-mt-44">
+   <div class="footer bg-black md:container mx-auto text-center text-neutral-content p-16 justify-between">
+    <aside>
+      <div class="flex  gap-8">
+       <h2>Download Now</h2>
+       <h2>License</h2>
+      </div>
+      <nav class="">
+ <ul class="flex gap-8 flex-col">
+   <li><a href="#">About</a></li>
+   <li><a href="#">Pricing</a></li>
+   <li><a href="#">Feature</a></li>
+   <li><a href="#">Careers</a></li>
+   <li><a href="#">Help</a></li>
+   <li><a href="#">Privacy Policy</a></li>
+ </ul>
+      </nav>
+      <p class="pt-8">© 2020 bike. All rights reserved</p>
+     </aside>
+     <nav>
+       <h6 class="footer-title text-2xl">Get The Apps</h6>
+       <div class="grid grid-cols-1 gap-4 ">
+         <a>
+       <img  src="images/others/android.png" alt="">
+         </a>
+         <a>
+          <img  src="images/others/ios.png" alt="">
+         </a>
+         
+       </div>
+     </nav>
+   </div>
+    
+  </footer>
 </body>
 </html>
